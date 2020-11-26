@@ -1,0 +1,28 @@
+{
+  "name": "m-arif-praja",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "app-root-dir": "^1.0.2",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.32",
+    "mongoose": "^5.10.15",
+    "morgan": "~1.9.1",
+    "path": "^0.12.7",
+    "redis": "^3.0.2",
+    "body-parser": "latest"
+  },
+  "devDependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "helmet": "^4.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
